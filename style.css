@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #c5d9ff;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+canvas {
+  background: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 100% !important;
+  height: 220px !important;
+}
+
+#lineChart {
+  border: 3px solid #8a3ffc;
+}
